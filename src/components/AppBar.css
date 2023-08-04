@@ -1,0 +1,38 @@
+.app-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.app-icon {
+  width: 25px;
+  height: 20px;
+  margin-right: 5px; /* Adjust the distance between the app icon and the title here */
+}
+
+.app-title-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1; /* Make the title container take up remaining space */
+}
+
+.app-title {
+  margin-left: 5px; /* Adjust the distance between the app icon and the title here */
+}
+
+/* You can modify or remove the styles related to .app-title and .user-name as they are not needed now */
+
+.profile-icon {
+  font-size: 30px; /* Adjust the size of the profile icon if needed */
+  color: #fff; /* You can change the color of the icon here */
+  margin-left: 5px; /* Adjust the distance between the user name and the profile icon here */
+}
+
